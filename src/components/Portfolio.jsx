@@ -68,11 +68,12 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex flex-col">
-                <a className="m-2 font-bold">{text}</a>
-                <a className="m-2">{year}</a>
+                <a href="#" className="m-2 font-bold">{text}</a>
+                <a href="#" className="m-2">{year}</a>
                 <a
                   href={href}
                   target="_blank"
+                  rel="noreferrer"
                   className="mb-2 m-auto text-center w-1/5 p-2 text-white bg-gradient-to-b from-cyan-500 to-blue-500 rounded-md justify-content: center duration-200 hover:scale-105"
                 >
                   View
