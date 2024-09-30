@@ -68,8 +68,8 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex flex-col">
-                <a href="#" className="m-2 font-bold">{text}</a>
-                <a href="#" className="m-2">{year}</a>
+                <p className="m-2 font-bold">{text}</p>
+                <p className="m-2">{year}</p>
                 <a
                   href={href}
                   target="_blank"
