@@ -2,6 +2,7 @@ import React from "react";
 import TaniBoen from "../assets/portfolio/TaniBoen.png";
 import WearHouse from "../assets/portfolio/WearHouse.png";
 import NetflixDashboard from "../assets/portfolio/NetflixDashboard.png";
+import NexInsight from "../assets/portfolio/NexInsight.png"
 import { motion } from "framer-motion";
 
 const Portfolio = () => {
@@ -22,6 +23,13 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: NexInsight,
+      text: "NexInsight: Front-end Dev",
+      year: "2024",
+      href: "https://github.com/bryandersonn/NexInsight",
+    },
+    {
+      id: 4,
       src: WearHouse,
       text: "WearHouse: Fullstack Dev",
       year: "2023",

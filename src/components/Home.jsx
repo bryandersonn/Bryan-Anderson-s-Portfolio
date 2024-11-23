@@ -27,8 +27,8 @@ const Home = () => {
             className="text-gray-500 py-4 max-w-md"
           >
             Hello! My name is Bryan Anderson and I am currently focusing and
-            working on data automation and furthermore diving into fullstack
-            using technologies such as React, Tailwind, Python, and MS SQL
+            working on data automation and furthermore diving into data anaysis as well as fullstack
+            using technologies such as React, Tailwind, Python, Tableau, and MS SQL
             Server.
           </motion.p>
           <motion.div

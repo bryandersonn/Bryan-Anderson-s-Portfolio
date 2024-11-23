@@ -7,33 +7,37 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import delman from "../assets/delmanddl.png";
 import asp from "../assets/asp.net.png";
+import tableau from "../assets/tableau.png";
+import sqlserver from "../assets/sqlserver.png";
+import mysqllogo from "../assets/mysql.png";
+import pythonlogo from "../assets/python.png"
 import { motion } from "framer-motion";
 
 const Experience = () => {
   const technos = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      src: tableau,
+      title: "Tableau",
+      style: "shadow-blue-600",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
+      src: sqlserver,
+      title: "SQL Server",
+      style: "shadow-red-600",
     },
     {
       id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
+      src: mysqllogo,
+      title: "MySQL",
+      style: "shadow-yellow-600",
     },
     {
       id: 4,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
+      src: pythonlogo,
+      title: "Python",
+      style: "shadow-yellow-600",
     },
     {
       id: 5,
@@ -49,15 +53,39 @@ const Experience = () => {
     },
     {
       id: 7,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 8,
       src: delman,
       title: "Delman DDL",
       style: "shadow-orange-600",
     },
     {
-      id: 8,
+      id: 9,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 10,
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 11,
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 12,
+      src: css,
+      title: "CSS",
+      style: "shadow-blue-500",
     },
   ];
   return (
